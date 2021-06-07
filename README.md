@@ -1,6 +1,6 @@
 # dots
 
-[Check out this blog](https://www.ackama.com/blog/posts/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained)  for a great explanation on how to mange your dots
+[Check out this blog](https://www.ackama.com/blog/posts/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained)  for a great explanation on how to mange your dots. In a nutshell, it's a bare (this part is not 100% necessary) git repo that has its working directory set to the home directory, and ignores all untracked files (so as to not include your entire home directory)
 
 # How to clone 
 Set up this repo locally as a bare repo with the work tree as your home directory.
