@@ -11,7 +11,7 @@ bspc rule -a spotify desktop='^6'
 sh $HOME/.config/bspwm/apps-start.sh
 
 #BSPWM configuration
-bspc config border_width         2
+bspc config border_width         1
 bspc config window_gap           10
 bspc config single_monocle       false
 #bspc config click_to_focus       true
